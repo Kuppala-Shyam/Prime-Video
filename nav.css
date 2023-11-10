@@ -1,0 +1,53 @@
+@import url(./main.css);
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+#nav
+{
+    border: 2px solid;
+    height: 40px;
+    background-color: #00050d;
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height:inherit ;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sub-nav span img{
+    height: 1.3em;
+}
+#sub-nav ol{
+    /* border: 2px solid yellow; */
+    list-style: none;
+    padding: 0%;
+    display: inline-flex;
+    color: #aaa;
+    width: 30%;
+    align-items: center;
+    font-size: 16px;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+#ol{
+    font-size: 16px;
+    font-weight: 500;
+}
+.box-search{
+    font-size: 16px;
+}
+#ol li img{
+    height: 2em;
+}
+#ol li{
+    text-transform: none;
+}
